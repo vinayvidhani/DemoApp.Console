@@ -10,4 +10,4 @@ Person person = new Person
 
 
 
-Console.WriteLine($"Name : {person.Name}");
+Console.WriteLine($"Id:{person.Id} and Name: {person.Name}");
