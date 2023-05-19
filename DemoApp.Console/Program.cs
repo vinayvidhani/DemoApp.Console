@@ -11,3 +11,4 @@ Person person = new Person
 
 
 Console.WriteLine($"Name : {person.Name}");
+Console.WriteLine($"Name : {person.Name}");
