@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+using DemoApp.Console.Model;
+
+Person person = new Person
+{
+    Id = 1,
+    Name = "Vinay Vidhani"
+};
+
+Console.WriteLine($"Name: {person.Name}");
